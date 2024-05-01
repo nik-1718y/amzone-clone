@@ -1,0 +1,187 @@
+*{margin: 0px;
+    padding: 0px;
+    /* background-image:url("download/360_F_330087090_czUy6x6qdJl8M8WJfetJ5iO99dGw0KCT.jpg") ; */
+    /* background-size:cover ; */
+    background-size: 100%;
+    /* background-color: black; */
+}
+.back{
+    
+    background-image:url("download/360_F_330087090_czUy6x6qdJl8M8WJfetJ5iO99dGw0KCT.jpg") ;
+    background-size:cover ;
+    /* background-color: black; */
+    height: 1000px;
+    color: white;
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.sun{
+    background-image:url("download/sun.png") ;
+    background-size:cover ;
+    background-color:orange;
+    height:100px ;
+    width: 100px;
+    /* border: none;  */
+    border-radius: 50%;
+    box-shadow: -4px 2px 56px orangered;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.mur{
+    
+    background-image:url("download/istockphoto-183817880-612x612.jpg") ;
+    background-size:cover ;
+    height: 30px;
+    width: 30px;
+    box-shadow: -4px 2px 56px #f9c05f;
+    /* margin-left: 50px; */
+    border-radius: 50px;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    animation:orbit2 10s linear infinite ;
+    
+}
+@keyframes orbit2{
+    from{
+        transform: rotate(0deg)translateX(79px)rotate(0deg);}
+    to{transform: rotate(360deg)translateX(79px)rotate(-360deg);}
+}
+.mur-outline,.venus-outline ,.earth-outline,.mars-outline,.jupiter-outline,.saturn-outline{
+    border-radius: 50%; 
+    border: 1px dotted #ddd9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mur-outline{
+    height: 155px;
+    width: 155px;
+}
+.venus{
+    
+    background-image:url("download/istockphoto-1330290575-612x612.jpg") ;
+    background-size:cover ;
+    /* background-color: ; */
+    height: 40px;
+    width: 40px;
+    box-shadow: -4px 2px 56px #cf8b15;
+    border-radius: 50px;
+    position: absolute;
+    left: 45%;
+    top: 32%;
+    animation:orbit3 20s linear infinite ;
+    
+}
+@keyframes orbit3{
+    from{
+        transform: rotate(0deg)translateX(100px)rotate(0deg);}
+    to{transform: rotate(360deg)translateX(100px)rotate(-360deg);}
+}
+.venus-outline{
+    height: 200px;
+    width: 200px;
+}
+.earth{
+    
+    background-image:url("download/yCPyoZDQBBcXikqxkeW2jJ-1200-80.jpg") ;
+    background-size:cover ;
+    /* background-color: ; */
+    height: 40px;
+    width: 40px;
+    box-shadow: -4px 2px 56px #cf8b15;
+    border-radius: 50px;
+    position: absolute;
+    left:50%;
+    top: 40%;
+    animation:orbit4 40s linear infinite ;
+    
+}
+@keyframes orbit4{
+    from{
+        transform: rotate(0deg)translateX(150px)rotate(0deg);}
+    to{transform: rotate(360deg)translateX(150px)rotate(-360deg);}
+}
+.earth-outline{
+    height: 280px;
+    width: 280px;
+}
+.mars{
+    
+    background-image:url("download/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png") ;
+    background-size:cover ;
+    /* background-color: ; */
+    height: 40px;
+    width: 40px;
+    box-shadow: -4px 2px 56px #cf8b15;
+    border-radius: 50px;
+    position: absolute;
+    left:40%;
+    top: 39%;
+    animation:orbit5 15s linear infinite ;
+    
+}
+@keyframes orbit5{
+    from{
+        transform: rotate(0deg)translateX(200px)rotate(0deg);}
+    to{transform: rotate(360deg)translateX(200px)rotate(-360deg);}
+}
+.mars-outline{
+    height: 380px;
+    width: 380px;
+}
+.jupiter{
+    
+    background-image:url("download/Jupiter's_swirling_colourful_clouds.jpg") ;
+    background-size:cover ;
+    /* background-color: ; */
+    height: 40px;
+    width: 40px;
+    box-shadow: -4px 2px 56px #cf8b15;
+    border-radius: 50px;
+    position: absolute;
+    left:43%;
+    top: 42%;
+    animation:orbit6 30s linear infinite ;
+    
+}
+@keyframes orbit6{
+    from{
+        transform: rotate(0deg)translateX(250px)rotate(0deg);}
+    to{transform: rotate(360deg)translateX(250px)rotate(-360deg);}
+}
+.jupiter-outline{
+    height: 487px;
+    width: 487px;
+}
+.saturn{
+    
+    background-image:url("download/download.jpeg") ;
+    background-size:cover ;
+    /* background-color: ; */
+    height: 45px;
+    width: 45px;
+    box-shadow: -4px 2px 56px #cf8b15;
+    border-radius: 50px;
+    position: absolute;
+    left:44%;
+    top: 44%;
+    animation:orbit7 20s linear infinite ;
+    
+}
+@keyframes orbit7{
+    from{
+        transform: rotate(0deg)translateX(280px)rotate(0deg);}
+    to{transform: rotate(360deg)translateX(280px)rotate(-360deg);}
+}
+.saturn-outline{
+    height: 570px;
+    width: 570px;
+}
